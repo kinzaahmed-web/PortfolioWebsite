@@ -1,27 +1,50 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Word } from '../models/Word';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  current: number;
+  words: Word[];
   activeWord: boolean[];
   showElement: boolean = true;
   constructor() {
-    this.current = 0;
   }
   ngOnInit(): void {
-    this.activeWord = [true, false, false, false, false];
+    this.words = [
+      {
+        id:1,
+        title: 'Student',
+        present: true
+      },
+      {
+        id:2,
+        title: 'Developer',
+        present: false
+      },
+      {
+        id:3,
+        title: 'Creative Thinker',
+        present: false
+      },
+      {
+        id:4,
+        title: 'Reader',
+        present: false
+      },
+      {
+        id:5,
+        title: 'Traveller',
+        present: false
+      }
+    ]
+   // this.activeWord = [true, false, false, false, false];
     //  this.wordsPresent();
   }
 
   ngOnDestroy(): void {
-  }
-
-  currentWord(): boolean{
-    //console.log(`current : ${this.current}`);
-    return this.showElement;
   }
 
 

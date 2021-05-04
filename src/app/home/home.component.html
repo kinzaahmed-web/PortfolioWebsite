@@ -3,28 +3,8 @@
         <div class="col-lg-6 col-lg-offset-3">
             <h4>HELLO MY NAME IS,</h4>
             <h1 *ngIf="true" id="wording" class="name-h1">KINZA AHMED</h1>
-            <h4><div class="mini-intro-text">
-                <span *ngIf="true" id="words-0" class="hidden animate__animated ">Student</span>
-                <span 
-                    *ngIf="activeWord[1]" 
-                    id="words-1" 
-                    class="hidden animate__animated "
-                >Developer</span>
-                <span 
-                    *ngIf="activeWord[2]" 
-                    id="words-2" 
-                    class="hidden animate__animated "
-                >Creative Thinker</span>
-                <span 
-                    *ngIf="activeWord[3]" 
-                    id="words-3" 
-                    class="hidden animate__animated "
-                >Reader</span>
-                <span *ngIf="activeWord[4]"
-                      id="words-4" 
-                      class="hidden animate__animated "
-                >Traveller</span>
-              </div></h4>
+            <h4><app-word-item *ngFor = "let word of words" class="mini-intro-text" [word]="word">
+            </app-word-item></h4>
         </div>
     </div>
 </div>

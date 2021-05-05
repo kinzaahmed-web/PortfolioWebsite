@@ -1,15 +1,23 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { trigger, style, transition, animate } from '@angular/animations';
+
 import { Word } from '../models/Word';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+  animations: [
+    trigger('fadeElement', [
+      transition(':enter', [
+        style({ opacity: 0 }),
+        animate('1000ms ease-in', style({ opacity: 1 }))
+      ])
+    ])
+  ]
 })
 export class HomeComponent implements OnInit {
   words: Word[];
-  activeWord: boolean[];
-  showElement: boolean = true;
   constructor() {
   }
   ngOnInit(): void {
@@ -36,63 +44,25 @@ export class HomeComponent implements OnInit {
       },
       {
         id:5,
-        title: 'Traveller',
+        title: 'Traveler',
         present: false
       }
     ]
-   // this.activeWord = [true, false, false, false, false];
-    //  this.wordsPresent();
+    this.showWord();
   }
 
   ngOnDestroy(): void {
   }
 
-
-  //high level idea of function
-  //have a function that shows the next word where the index is 
-  //originally initialized to 0
-  //and then each time we call the function we increment the value 
-  // and when the index equals the designated word, fadeIn(1500), 
-  //delay 1000 and also fade out 1500
-  //continually call this function, maybe a while true loop?
-  
-  // setInterval() for a repeatedly occurring setTimeout(). Use this for a delay between
-  // your iterations since the while loop is executing so quickly.
-
-//   wordsPresent() : void  {
-//     //const words: HTMLCollectionOf<Element> = document.getElementsByClassName('words');
-//     //alert("current Index: " + words[0].textContent);
-//     //console.log(`current index: ${words[0].textContent}`);
-//     let wordIndex = 0;
-//     //let delay = 1;
-//     while(wordIndex < 5){
-//       this.activeWord[wordIndex] = true;
-//       setTimeout(function(){
-//         //console.log(`${this.activeWord[wordIndex]}`);
-//         const word: HTMLElement = document.getElementById(`words-${wordIndex}`);
-//         console.log(`${word}`);
-//         if(word != null){
-//           word.classList.remove('hidden');
-//           //console.log(`current value: ${words[wordIndex].innerHTML}`);
-//           // if(wordIndex > 1){
-//           //   word.classList.add(`animate__delay-${delay}s`);
-//           //   delay++;
-//           // }
-//           word.classList.add('animate__fadeIn');
-//           // if(wordIndex > 1){
-//           //   word.classList.add(`animate__delay-${delay}s`);
-//           //   delay++;
-//           // }
-//           //word.classList.add('animate__fadeOut');
-//           console.log(`current index: ${word.textContent}`);
-//         }
-//       }, 2000);
-//       // this.current = wordIndex;
-//       console.log(`current index: ${wordIndex}`);
-//       wordIndex++;
-//       // if(wordIndex == words.length - 1){
-//       //   wordIndex = -1;
-//       // }
-//     }
-//   }
+  showWord(): void {
+    let wordIndex = 0;
+    let timerWord = setInterval(() => {
+      this.words[wordIndex].present = false;
+      wordIndex++;
+      if (wordIndex > this.words.length - 1) {
+        wordIndex = 0;
+      } 
+      this.words[wordIndex].present = true;
+    }, 3000);
+  }
 }

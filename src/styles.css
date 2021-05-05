@@ -2,4 +2,17 @@
 /* You can add global styles to this file, and also import other style files */
 * {
     margin: 0 0;
+    background-color:#9ca0ac;
+}
+
+body,div {
+    font-family: 'Lora', serif;
+    color: #484d5c;
+}
+   
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color:#ffce00;
+  font-weight: 550;
+  text-transform: uppercase;
 }

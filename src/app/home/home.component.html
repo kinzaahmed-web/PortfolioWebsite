@@ -1,10 +1,39 @@
 <div class="container">
+    <header class="header">
+        <h3>
+        <nav>
+            <a routerLink="/">Home</a> | 
+            <a routerLink="/about">About</a> | 
+            <a routerLink="/projects">Projects</a> | 
+            <a routerLink="/experience">Experience</a> | 
+            <a routerLink="/contact">Contact</a> 
+        </nav>
+    </h3>
+    </header>
     <div class="row">
         <div class="col-lg-6 col-lg-offset-3">
             <h4>HELLO MY NAME IS,</h4>
             <h1 *ngIf="true" id="wording" class="name-h1">KINZA AHMED</h1>
-            <h4><app-word-item *ngFor = "let word of words" class="mini-intro-text" [word]="word">
-            </app-word-item></h4>
+            <div class="mini-intro-text">
+                <div *ngFor="let word of words">
+                    <h4 @fadeElement *ngIf="word.present">
+                        {{ word.title }}
+                    </h4>
+                </div>
+            </div>
         </div>
     </div>
+    <div id="social-box">
+        <a id="social-id" href="https://github.com/kinzaahmed-web">
+          <img id="github-social" class="social-icons" alt="Github Link" src="assets/github.png">
+        </a>
+        <a id="social-id" href="https://www.linkedin.com/in/kinzaahmed/">
+          <img id="linkedin-social" class="social-icons" alt="LinkedIn Link" src="assets/linkedin.png">
+        </a>
+        <a id="social-id" href="mailto:kinza1013@yahoo.com">
+            <img id="email-social" class="social-icons" alt="Email Link" src="assets/email.png">
+        </a>
+    </div>
 </div>
+
+

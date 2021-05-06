@@ -2,17 +2,98 @@
 /* You can add global styles to this file, and also import other style files */
 * {
     margin: 0 0;
-    background-color:#9ca0ac;
+    background-color: #F2F4F8;
 }
+
+.header {
+    /* background: #b68973; */
+    padding-top: 200px;
+    color: #eabf9f;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .header a {
+    color: #566078;
+    text-decoration: none;
+  }
 
 body,div {
     font-family: 'Lora', serif;
     color: #484d5c;
 }
-   
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  color:#ffce00;
+  color:#b4a3ce;
   font-weight: 550;
   text-transform: uppercase;
 }
+
+#social-box {
+    width: 220px;
+    background-color: #FAF9FB;
+    padding: 0 20px;
+    position: relative;
+    right: -86.3%;
+    border-radius: 40px 0 0 40px;
+    top: -30em;
+  }
+  
+  #social-id{
+    background-color: #FAF9FB;
+  }
+  
+  .social-icons {
+    background-color: #FAF9FB;
+    width: 40px;
+    height: 40px;
+    margin: 7px 15px;
+  }
+  
+  #vector-1 {
+    position: relative;
+    left: 90%;
+    top: 25px;
+  }
+  
+  #vector-2 {
+    position: relative;
+    left: 40%;
+    top: 60px;
+  }
+  
+  #vector-3 {
+    position: relative;
+    top: 8em;
+  }
+  
+  #vector-4 {
+    position: relative;
+    left: 60%;
+    top: 15em;
+  }
+  
+  #vector-5 {
+    position: relative;
+    left: 10%;
+    top: 5em;
+  }
+  
+  #vector-6 {
+    position: relative;
+    left: 10%;
+    top: 26em;
+  }
+  
+  #vector-7 {
+    position: relative;
+    right: 25%;
+    top: 35em;
+  }
+  
+  #vector-8 {
+    position: relative;
+    left: 25%;
+    top: 29em;
+  }

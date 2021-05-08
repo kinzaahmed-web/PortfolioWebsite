@@ -5,18 +5,28 @@
     background-color: #F2F4F8;
 }
 
+.container  {
+  position: relative;
+  /* background: url('/assets/home/HomePageBG.jpg') no-repeat center center fixed; */
+  /* background-color:#484d5c; */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover; */
+  padding-top: 30px;
+  /* background-size: cover;  */
+}
+
 .header {
-    /* background: #b68973; */
-    padding-top: 200px;
-    color: #eabf9f;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .header a {
-    color: #566078;
-    text-decoration: none;
-  }
+  /* background: #b68973; */
+  padding-top: 200px;
+  color: #eabf9f;
+  text-align: center;
+  padding: 10px;
+}
+
+.header a {
+  color: #566078;
+  text-decoration: none;
+}
 
 body,div {
     font-family: 'Lora', serif;
@@ -50,50 +60,17 @@ h1, h2, h3, h4, h5, h6 {
     height: 40px;
     margin: 7px 15px;
   }
-  
-  #vector-1 {
-    position: relative;
-    left: 90%;
-    top: 25px;
+
+  .card {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 52px 74px rgba(0,21,64,.138559);
+    max-width: 900px;
+    max-height: 500px;
+    margin: 0 auto 4em;
+    transition: transform .2s; /* Animation */
   }
-  
-  #vector-2 {
-    position: relative;
-    left: 40%;
-    top: 60px;
-  }
-  
-  #vector-3 {
-    position: relative;
-    top: 8em;
-  }
-  
-  #vector-4 {
-    position: relative;
-    left: 60%;
-    top: 15em;
-  }
-  
-  #vector-5 {
-    position: relative;
-    left: 10%;
-    top: 5em;
-  }
-  
-  #vector-6 {
-    position: relative;
-    left: 10%;
-    top: 26em;
-  }
-  
-  #vector-7 {
-    position: relative;
-    right: 25%;
-    top: 35em;
-  }
-  
-  #vector-8 {
-    position: relative;
-    left: 25%;
-    top: 29em;
+ .card:hover {
+    transform: scale(1.05); 
   }

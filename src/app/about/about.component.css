@@ -1,0 +1,23 @@
+.about {
+    padding-top: 50px;
+}
+  
+  .about-paragraph {
+    letter-spacing: 0.09em;
+    text-align: justify;
+  }
+
+.section-heading {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .section-heading-paragraph {
+    margin: 0;
+    letter-spacing: 0.1em;
+  }
+  
+  .section-heading-text {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+  }

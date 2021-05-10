@@ -10,6 +10,16 @@
         </nav>
         </h3>
     </header>
+
+    <div *ngIf="viewExperiences">
+        <div id="experience">
+            <div class="experience-container" id="workExperience">
+                <div class="experience-cards-div">
+                  <app-experience-card  *ngFor="let card of experience" [experience]="card" class="card"></app-experience-card>
+                </div>
+            </div>
+        </div>
+      </div>
 </div>
 
 

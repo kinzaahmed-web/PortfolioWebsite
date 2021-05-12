@@ -1,23 +1,66 @@
+/* section {
+  margin: 10px auto;
+  max-width: 860px;
+  padding: 50px 0px;
+} */
+.about-text h1{
+  /* font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif; */
+  font-weight: 500;
+  font-size: 35px;
+color: #232320;
+line-height: 150%;
+}
+
+.about-text p{
+  color: #656270;
+font-size: 18px;
+line-height: 32px;
+}
 .about {
-    padding-top: 50px;
+    /* padding-top: 50px; */
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 30px;
+    margin: 10px auto;
+    max-width: 860px;
+    padding: 50px 0px;
+}
+
+.about-picture {
+  /* box-shadow: 2px 3px 5px -5px;
+  border-radius: 5px; */
+  /* box-shadow: 2px 3px 5px -5px; */
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 52px 74px rgba(0,21,64,.138559);
+  max-width: 580px;
+  /* max-width: 340px; */
+  /* margin-left: 50px; */
+}
+
+.about-text{
+  width: 150%;
+  padding: 50px;
+  /* max-width: 640px; */
+  /* margin-left: 500px; */
 }
   
-  .about-paragraph {
-    letter-spacing: 0.09em;
-    text-align: justify;
-  }
+/* .about-paragraph {
+  letter-spacing: 0.09em;
+  text-align: justify;
+}
 
 .section-heading {
-    margin: auto;
-    text-align: center;
-  }
-  
-  .section-heading-paragraph {
-    margin: 0;
-    letter-spacing: 0.1em;
-  }
-  
-  .section-heading-text {
-    font-weight: bold;
-    letter-spacing: 0.1em;
-  }
+  margin: auto;
+  text-align: center;
+}
+
+.section-heading-paragraph {
+  margin: 0;
+  letter-spacing: 0.1em;
+}
+
+.section-heading-text {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+} */

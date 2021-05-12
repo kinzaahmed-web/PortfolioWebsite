@@ -5,14 +5,11 @@
         <h5 class="experience-text-company">{{experience.company}}</h5>
       </div>
   
-      <img crossOrigin="anonymous" class="experience-roundedimg" [src]="experience.companylogo" >
+      <img class="experience-roundedimg" [src]="experience.companylogo" >
     </div>
     <div class="experience-text-details">
       <h5 class="experience-text-role">{{experience.role}}</h5>
       <h5 class="experience-text-date">{{experience.date}}</h5>
       <p class="subTitle experience-text-desc">{{experience.desc}}</p>
-      <ul>
-        <li class="subTitle" *ngFor="let lis of experience.descBullets">{{lis}}</li>
-      </ul>
     </div>
   </div>

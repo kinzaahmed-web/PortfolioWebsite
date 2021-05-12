@@ -5,5 +5,4 @@ export class Experience {
     companylogo: string;
     date: string;
     desc: string;
-    descBullets?: string[];
 }

@@ -35,7 +35,7 @@ export class ExperienceComponent implements OnInit {
       },
 
       {
-        role: "IT Client Services",
+        role: "IT Client Services Intern",
         company: "Ecolab HQ",
         color: "#0077be",
         companylogo: "assets/experience/ecolabLogo.jpg",
@@ -55,7 +55,7 @@ export class ExperienceComponent implements OnInit {
       },
 
       {
-        role: "IT Risk MGMT Intern",
+        role: "IT Risk Management Intern",
         company: "CHS Inc HQ",
         color: "#add8e6",
         companylogo: "assets/experience/chsLogo.PNG",

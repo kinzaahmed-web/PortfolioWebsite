@@ -10,28 +10,20 @@
         </nav>
         </h3>
     </header>
-    <div class="contact card">
-        <section class="hero is-primary is-bold">
-            <div class="hero-body">
-            <div class="container">
-        
-              <h1 class="title">Contact Me!</h1>
-        
-            </div>
-            </div>
-        </section>
+    
+    <div class="contact">
     
         <section class="section">
+            <h1 class="header title">Contact Me!</h1>
             <div class="container">
-            
-                <form (ngSubmit)="processForm()">
+                <form (ngSubmit)="processForm()" #contactForm="ngForm">
     
                     <!-- name -->
-                    <div class="field">
+                    <div class="form-group field">
                       <input 
                         type="text" 
                         name="name" 
-                        class="input" 
+                        class="form-control input" 
                         placeholder="Your Name" 
                         [(ngModel)]="name"
                         required
@@ -44,11 +36,11 @@
                     </div>
                   
                     <!-- email -->
-                    <div class="field">          
+                    <div class="form-group field">          
                       <input 
                         type="email" 
                         name="email" 
-                        class="input" 
+                        class="form-control input" 
                         placeholder="Your Email" 
                         [(ngModel)]="email"
                         required
@@ -61,9 +53,9 @@
                     </div>
                   
                     <!-- message -->
-                    <div class="field">
+                    <div class="form-group field">
                       <textarea 
-                        class="textarea" 
+                        class="form-control textarea" 
                         name="message" 
                         placeholder="What's on your mind?" 
                         [(ngModel)]="message"
@@ -75,7 +67,7 @@
                         </div>
                     </div>
                   
-                    <button type="submit" class="button is-danger is-large">Submit</button>
+                    <button type="submit" class="btn btn-success" [disabled]="!contactForm.form.valid">Submit</button>
                   
                   </form>
             

@@ -1,4 +1,6 @@
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -10,7 +12,7 @@ export class ContactComponent implements OnInit {
   email: string;
   message: string;
 
-  constructor() {}
+  constructor(private http: HttpClient) {}
 
   ngOnInit() {}
 
@@ -19,8 +21,19 @@ export class ContactComponent implements OnInit {
    * Only alerting for now
    */
   processForm() {
-    const allInfo = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
-    alert(allInfo); 
+    const headers = new HttpHeaders(
+      {'Content-Type' : 'application/json'}
+    );
+    alert("Thank you! Your message has been sent. I will get back to you as soon as possible!");
+    this.http.post(
+      'https://formspree.io/f/mgerarvd',
+      {
+        name: this.name,
+        replyto: this.email,
+        message: this.message,
+      },
+      { headers: headers }
+    )
+    .subscribe(() => {});
   }
-
 }

@@ -11,5 +11,10 @@
       <h5 class="experience-text-role">{{experience.role}}</h5>
       <h5 class="experience-text-date">{{experience.date}}</h5>
       <p class="subTitle experience-text-desc">{{experience.desc}}</p>
+      <div [ngStyle]="{background: experience.detailsColor}" class="details">
+        <div class="content">
+            <p>{{experience.details}}</p>
+        </div>
+    </div>
     </div>
   </div>

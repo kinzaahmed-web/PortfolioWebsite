@@ -19,6 +19,10 @@ export class ProjectInfoService {
         url: "target-store-capacity-tracker",
         backgroundImg: "assets/projects/card2.jpg",
         name:"Target Store Capacity Tracker",
+        video: {
+          videoTitle: 'Store Capacity Tracker',
+          videoUrl: 'assets/projects/TargetCapacityTracker.mp4',
+        },
       },
       {
         url: "portfolio-website",

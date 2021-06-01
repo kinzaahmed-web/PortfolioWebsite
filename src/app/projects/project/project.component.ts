@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 export class ProjectComponent implements OnInit {
   projects: Project[];
   project: Project[];
+  proj: Project;
   lastPart: String;
   constructor(private projectService:ProjectInfoService, private router: Router) { }
 
@@ -19,6 +20,12 @@ export class ProjectComponent implements OnInit {
     this.lastPart = this.router.url.substring(this.router.url.lastIndexOf('/') + 1);
     this.lastPart = this.lastPart.split('-').join(' ');
     this.project = this.projects.filter(proj => proj.name.toUpperCase() === this.lastPart.toUpperCase());
+    this.hasVideo();
+  }
+
+  hasVideo() : boolean {
+    console.log(this.proj.video.videoTitle);
+    return this.proj.video.videoTitle != null;
   }
 
 }

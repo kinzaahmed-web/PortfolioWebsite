@@ -76,7 +76,7 @@ export class ExperienceComponent implements OnInit {
         color: "#0077be",
         companylogo: "assets/experience/ecolabLogo.jpg",
         date: "August 2018 - August 2019",
-        desc: "IT Client Services intern at Ecolab HQ where I worked on the IT Client Services team .",
+        desc: "IT Client Services intern at Ecolab HQ where I worked on the IT Client Services team.",
         details: "This was my first ever internship in the field of IT and at the time I wasn't sure what I wanted to do. I have learnt valuable skills like troubleshooting, communicating and expanding my technical skillset. " 
         + "I not only gained a good experience in dealing with customers, vendors and employees but I also used my time to get connected with people at Ecolab who did jobs that caught my eye. "
         +"It was through this internship where I had my first job shadow for software development and I absolutely fell in love with it. I knew it was something I wanted to do in the future.",

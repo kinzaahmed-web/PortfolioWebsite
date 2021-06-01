@@ -11,6 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { ExperienceCardComponent } from './experience/experience-card/experience-card.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProjectComponent } from './projects/project/project.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     ExperienceComponent,
     ProjectsComponent,
     ContactComponent,
-    ExperienceCardComponent
+    ExperienceCardComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

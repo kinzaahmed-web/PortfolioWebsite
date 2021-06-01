@@ -10,13 +10,10 @@
         </nav>
         </h3>
     </header>
-
-    <div class="projects-section">
-        <div class="card" *ngFor="let card of projects">
-            <a [routerLink]="['/project', card.url]"><img src={{card.backgroundImg}}></a>
+    
+    <div class="project-section">
+        <div class="project" *ngFor="let proj of project">
+           {{ proj.name }}
          </div>
     </div>
-
 </div>
-
-

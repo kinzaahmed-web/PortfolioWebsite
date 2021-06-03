@@ -14,6 +14,10 @@ export class ProjectInfoService {
         url: "budget-tracker",
         backgroundImg: "assets/projects/card1.jpg",
         name:"Budget Tracker",
+        video: {
+          videoTitle: 'Store Capacity Tracker',
+          videoUrl: 'assets/projects/TargetCapacityTracker.mp4',
+        },
       },
       {
         url: "target-store-capacity-tracker",
@@ -28,11 +32,19 @@ export class ProjectInfoService {
         url: "portfolio-website",
         backgroundImg: "assets/projects/card3.jpg",
         name:"Portfolio Website",
+        video: {
+          videoTitle: 'Store Capacity Tracker',
+          videoUrl: 'assets/projects/TargetCapacityTracker.mp4',
+        },
       },
       {
         url: "task-master",
         backgroundImg: "assets/projects/card4.jpg",
         name:"Task Master",
+        video: {
+          videoTitle: 'Store Capacity Tracker',
+          videoUrl: 'assets/projects/TargetCapacityTracker.mp4',
+        },
       },
     ]
   }

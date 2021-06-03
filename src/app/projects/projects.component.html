@@ -13,6 +13,7 @@
 
     <div class="projects-section">
         <div class="card" *ngFor="let card of projects">
+            <h2 class="text">{{ card.name }}</h2>
             <a [routerLink]="['/project', card.url]"><img src={{card.backgroundImg}}></a>
          </div>
     </div>

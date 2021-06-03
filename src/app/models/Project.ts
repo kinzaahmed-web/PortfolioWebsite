@@ -6,4 +6,10 @@ export class Project {
         videoTitle: string
         videoUrl: string
       }
+    problem: string;
+    myApproach: string;
+    technologies: string;
+    challenges: string;
+    results: string;
+    different: string;
 }

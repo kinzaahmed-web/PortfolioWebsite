@@ -12,46 +12,52 @@
     </header>
     
     <div class="project-section">
-        <div class="project" *ngFor="let proj of project" [proj]="proj">
-           {{ proj.name }}
-         </div>
-         
+        <div class="project" *ngFor="let proj of project">
          <div class="container">
             <h2>The problem</h2>
           
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, laudantium veritatis blanditiis quod eveniet cumque ullam fugit omnis fugiat, necessitatibus cum fuga in vitae ea dolor! Maiores neque aperiam dolore!:</p>
+            {{ proj.problem }}
 
             <div class="row">
                 <div class="col">
           
                 <h3 class="project_sub">My Approach</h3>
           
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis iste excepturi est aperiam, explicabo dolore neque iure quidem ab aliquid facere fugit sed cupiditate qui laboriosam labore quo distinctio ad?</p>
+                {{ proj.myApproach }}
+
+                <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis iste excepturi est aperiam, explicabo dolore neque iure quidem ab aliquid facere fugit sed cupiditate qui laboriosam labore quo distinctio ad?</p> -->
 
                 <h3 class="project_sub">Technologies</h3>
           
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio et placeat nam itaque eaque quam praesentium rem, assumenda eveniet iste reiciendis minima repudiandae tenetur ducimus ut totam non dignissimos!</p>
+                {{ proj.technologies }}
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At distinctio et placeat nam itaque eaque quam praesentium rem, assumenda eveniet iste reiciendis minima repudiandae tenetur ducimus ut totam non dignissimos!</p> -->
           
                 <h3 class="project_sub">Challenges</h3>
+
+                {{ proj.challenges }}
           
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus rem, commodi dolore corporis quos alias eius, assumenda deserunt nam fugit cum est facilis magnam debitis harum! Nesciunt eos voluptate doloribus.</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus rem, commodi dolore corporis quos alias eius, assumenda deserunt nam fugit cum est facilis magnam debitis harum! Nesciunt eos voluptate doloribus.</p> -->
 
                 
 
                 <h3 class="project_sub">Results</h3>
+
+                {{ proj.results }}
           
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus rem, commodi dolore corporis quos alias eius, assumenda deserunt nam fugit cum est facilis magnam debitis harum! Nesciunt eos voluptate doloribus.</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus rem, commodi dolore corporis quos alias eius, assumenda deserunt nam fugit cum est facilis magnam debitis harum! Nesciunt eos voluptate doloribus.</p> -->
                 
                 <h3 class="project_sub">What I would do differently</h3>
           
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus rem, commodi dolore corporis quos alias eius, assumenda deserunt nam fugit cum est facilis magnam debitis harum! Nesciunt eos voluptate doloribus.</p>
+                {{ proj.different }}
+
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus rem, commodi dolore corporis quos alias eius, assumenda deserunt nam fugit cum est facilis magnam debitis harum! Nesciunt eos voluptate doloribus.</p> -->
           
                 </div>
                 <div class="vid-container">
-                    <!-- <iframe width="800" height="315" src="{{proj.video.videoUrl}}" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                    <iframe width="800" height="315" src="/assets/projects/4.mp4" frameborder="0"
+                    <iframe width="800" height="315" [src]="videoURL()" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <iframe width="800" height="315" src="/assets/projects/4.mp4" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                     <!-- <iframe class="youtube-frame" width="1280" height="720" [src]="proj.video.videoUrl" frameborder="0" allowfullscreen></iframe> -->
                     <!-- <video class="video" controls playsinline autobuffer autoplay muted loop preload="auto">
                         <source class="vid" src="/assets/projects/3.mp4" type="video/mp4" >

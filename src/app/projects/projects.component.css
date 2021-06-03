@@ -1,4 +1,18 @@
 .projects-section {
     padding-top: 40px;
 }
+
+.text {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: bold 24px/45px ; 
+   letter-spacing: -1px;  
+   background-color: transparent !important;
+   padding: 10px; 
+   font-weight: bolder;
+   color: black;
+   z-index: 20;
+}
   

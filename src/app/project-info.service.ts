@@ -70,6 +70,21 @@ export class ProjectInfoService {
         results: 'I ended up successfully programming the task master and it was a really great and useful way to get into programming projects!',
         different: 'If I had time to go back and fix this project up a bit I would work on the front end nervous laugh we all know that needs some work!',
       },
+      {
+        url: "personal-portfolio",
+        backgroundImg: "assets/projects/portfolio.png",
+        name:"Personal Portfolio",
+        video: {
+          videoTitle: 'Personal Portfolio',
+          videoUrl: 'assets/projects/5.mp4',
+        },
+        problem: 'My first ever exposure to HTML, CSS, and JavaScript was through this online Harvard CS50 course I took one summer. It gave me a good understanding on how the languages worked and basics. I wanted to put my skills to the test and build a personal portfolio. The video shows my first personal portfolio. The site you are on right now, is the updated version of that site. ',
+        myApproach: "I wanted to make sure that the people who would go on my website would have a seamless experience and could get all the information they needed. I wanted to add specific information about my background, who I am, and what experiences I have. ",
+        technologies: 'Since it was my first time dealing with front end after the course, I went pretty light in terms of JavaScript by adding a few functionalities that I thought were really cool and also used HTML and CSS. ',
+        challenges: 'A challenge I ran into was making sure there was something the users could interact with on my website. I ended up using the skills refresh as a way for users to interact and load that as well as adding a light/dark mode option. ',
+        results: "I ended up creating the website and deploying it to github. Since it was my first time making a website I want to go back and update things which is why I made this website you're on right now! Feel free to explore the other sections and give me feedback and/or suggestions on how I can make this even better!",
+        different: 'Since I did have time to go back and create a new website this year, I think I want to make sure I can continually update and add cool features to this website!',
+      },
     ]
   }
 }

@@ -15,18 +15,9 @@
   .experience-container>* {
     flex: 1;
   }
-  
-  /* Media Query */
-  
-  /* @media (max-width: 1380px) {
-    .experience-heading {
-      font-size: 40px;
+
+  @media screen and (max-width: 600px) {
+    .card {
+      max-height: none;
     }
   }
-  
-  @media (max-width: 768px) {
-    .experience-heading {
-      font-size: 30px;
-      text-align: center;
-    }
-  } */

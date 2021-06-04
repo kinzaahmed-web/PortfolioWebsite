@@ -3,3 +3,13 @@
     color: #b4a3ce;
     font-family: 'Montserrat', sans-serif;
 }
+
+.container {
+    padding: 20;
+}
+
+@media screen and (min-width: 1000px) {
+    .box {
+        padding: 5%;
+    }
+}

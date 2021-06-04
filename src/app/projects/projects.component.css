@@ -1,7 +1,5 @@
 .projects-cards-div {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  gap: 5rem 5rem; */
 }
 
 .projects-section {

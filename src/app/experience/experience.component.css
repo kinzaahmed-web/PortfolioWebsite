@@ -1,3 +1,7 @@
+* {
+  background-color: #F2F4F8;
+}
+
 .experience-cards-div {
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));

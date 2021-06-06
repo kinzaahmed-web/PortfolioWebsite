@@ -9,16 +9,10 @@
 
 .container  {
   position: relative;
-  /* background: url('/assets/home/HomePageBG.jpg') no-repeat center center fixed; */
-  /* background-color:#484d5c; */
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover; */
   padding-top: 30px;
-  /* background-size: cover;  */
 }
 
 .header {
-  /* background: #b68973; */
   padding-top: 200px;
   color: #eabf9f;
   text-align: center;
@@ -52,9 +46,9 @@ h1, h2, h3, h4, h5, h6 {
     top: -30em;
   }
   
-  #social-id{
+  /* #social-id{
     background-color: #FAF9FB;
-  }
+  } */
   
   .social-icons {
     background-color: #FAF9FB;
@@ -68,11 +62,17 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0 52px 74px rgba(0,21,64,.138559);
-    max-width: 900px;
-    max-height: 500px;
     margin: 0 auto 4em;
     transition: transform .2s; /* Animation */
   }
  .card:hover {
     transform: scale(1.05); 
+  }
+
+  @media screen and (max-width: 1400px) {
+    #social-box {
+      width:100px;
+      padding: 0;
+      margin-top: -50%;
+    }
   }

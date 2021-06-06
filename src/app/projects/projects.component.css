@@ -1,3 +1,7 @@
+* {
+  background-color: #F2F4F8;
+}
+
 .projects-cards-div {
   display: grid;
 }
@@ -11,9 +15,7 @@ img {
 }
 
 .text {
-    position: absolute;
-  left: 50%;
-  transform: translate(-50%, 450%);
+  position: absolute;
   font: bold 40px ; 
    letter-spacing: 5px;  
    background-color: transparent !important;
@@ -42,18 +44,21 @@ img {
   flex: 1;
 }
 
-/* Media Query */
-
-@media (max-width: 1380px) {
-  .projects-heading {
-    font-size: 40px;
+@media screen and (max-width: 600px) {
+  .card {
+    max-height: none;
   }
 }
 
-@media (max-width: 768px) {
-  .projects-heading {
-    font-size: 30px;
-    text-align: center;
+@media screen and (max-width: 1000px){
+  img {
+    width: auto;
+    height: 400px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .text {
+    z-index: 1;
   }
 }
   

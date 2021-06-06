@@ -13,6 +13,7 @@ import { ExperienceCardComponent } from './experience/experience-card/experience
 import { HttpClientModule } from '@angular/common/http';
 import { ProjectComponent } from './projects/project/project.component';
 import {LocationStrategy, HashLocationStrategy} from '@angular/common';
+import { ParticlesModule } from 'angular-particle';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import {LocationStrategy, HashLocationStrategy} from '@angular/common';
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
+    ParticlesModule
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]

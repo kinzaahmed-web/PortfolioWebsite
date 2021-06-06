@@ -12,4 +12,5 @@ export class Project {
     challenges: string;
     results: string;
     different: string;
+    webLink?: string;
 }

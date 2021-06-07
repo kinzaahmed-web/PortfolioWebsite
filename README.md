@@ -27,10 +27,22 @@
 <p>Image Sources: All images for the projects were downloaded from wallpapercave.com <br></br>
 
 <p align="center">
-  <img src="src/assets/home.png">
+  <img src="src/assets/home.PNG">
 </p>
 
 Icon was downloaded from thenounproject.com</p>
+
+<!-- CONTACT -->
+## Contact
+
+Kinza Ahmed  - kinza1013@yahoo.com
+
+Project Link: [https://kinzaahmed-web.github.io/PortfolioWebsite/](https://kinzaahmed-web.github.io/PortfolioWebsite/)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/kinzaahmed/
+ 
 
 # PortfolioWebsite
 

@@ -1,6 +1,6 @@
 # PortfolioWebsite
 <p align="center">
-  <img src="https://github.com/kinzaahmed-web/PortfolioWebsite/tree/master/src/assets/home.PNG">
+  <img src="https://github.com/kinzaahmed-web/PortfolioWebsite/tree/master/src/favicon.ico">
 </p>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.

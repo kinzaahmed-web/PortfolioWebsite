@@ -16,7 +16,7 @@
     <a href="https://kinzaahmed-web.github.io/PortfolioWebsite/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://kinzaahmed-web.github.io/PortfolioWebsite/#/">Checkout my portfolio</a>
+    <a href="https://kinzaahmed-web.github.io/PortfolioWebsite/#/">Check it out!</a>
     ·
     <a href="https://kinzaahmed-web.github.io/PortfolioWebsite/issues">Report Bug</a>
     ·

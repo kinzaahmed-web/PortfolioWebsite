@@ -1,4 +1,7 @@
 # PortfolioWebsite
+<p align="center">
+  <img src="https://github.com/kinzaahmed-web/PortfolioWebsite/src/assets/home.png">
+</p>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 

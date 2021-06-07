@@ -1,7 +1,38 @@
-# PortfolioWebsite
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+<!-- PROJECT LOGO -->
+<br />
 <p align="center">
-  <img src="https://github.com/kinzaahmed-web/PortfolioWebsite/tree/master/src/favicon.ico">
+  <a href="https://kinzaahmed-web.github.io/PortfolioWebsite/">
+    <img src="src/assets/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Portfolio Website</h3>
+
+  <p align="center">
+    My interactive personal portfolio!
+    <br />
+    <a href="https://kinzaahmed-web.github.io/PortfolioWebsite/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://kinzaahmed-web.github.io/PortfolioWebsite/#/">Checkout my portfolio</a>
+    ·
+    <a href="https://kinzaahmed-web.github.io/PortfolioWebsite/issues">Report Bug</a>
+    ·
+    <a href="https://kinzaahmed-web.github.io/PortfolioWebsite/issues">Request Feature</a>
+  </p>
 </p>
+
+<p>Image Sources: All images for the projects were downloaded from wallpapercave.com <br></br>
+
+<p align="center">
+  <img src="src/assets/home.png">
+</p>
+
+Icon was downloaded from thenounproject.com</p>
+
+# PortfolioWebsite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 

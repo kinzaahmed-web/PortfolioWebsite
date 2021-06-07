@@ -69,7 +69,7 @@ export class ProjectInfoService {
         technologies: "It was my first time dealing with front end and back end so my front end wasn't the greatest, sorry! I ended up using basic HTML, CSS and then using Flask which is a python based web framework. I also used SQL database to store tasks. <br></br><img src='https://img.icons8.com/nolan/64/html.png'/> <img src='https://img.icons8.com/nolan/64/css-filetype.png'/> <img src='https://img.icons8.com/nolan/64/python.png'/> <img src='https://img.icons8.com/nolan/64/flask.png'/> <img src='https://img.icons8.com/nolan/64/sql.png'/>",
         challenges: 'A challenge I ran into was trying to make sure I was updating my tasks and sending the correct requests in the API calls. I wanted things to look seamless as possible on the front end. ',
         results: 'I ended up successfully programming the task master and it was a really great and useful way to get into programming projects!',
-        different: 'If I had time to go back and fix this project up a bit I would work on the front end nervous laugh we all know that needs some work!',
+        different: 'If I had time to go back and fix this project up a bit I would work on the front end nervous laugh we all know that needs some work! ',
         webLink: 'https://github.com/kinzaahmed-web/FlaskTaskMaster',
       },
       {

@@ -24,12 +24,11 @@
   </p>
 </p>
 
-<p>Image Sources: All images for the projects were downloaded from wallpapercave.com <br></br>
-
 <p align="center">
   <img src="src/assets/home.PNG">
 </p>
 
+<p>Image Sources: All images for the projects were downloaded from wallpapercave.com <br></br>
 Icon was downloaded from thenounproject.com</p>
 
 <!-- CONTACT -->

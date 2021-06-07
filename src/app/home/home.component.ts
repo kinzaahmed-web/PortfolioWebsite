@@ -144,27 +144,27 @@ export class HomeComponent implements OnInit {
     this.words = [
       {
         id:1,
-        title: 'Student',
+        title: '<h3><strong>Student</strong></h3>',
         present: true
       },
       {
         id:2,
-        title: 'Developer',
+        title: '<h3><strong>Developer</strong></h3>',
         present: false
       },
       {
         id:3,
-        title: 'Creative Thinker',
+        title: '<h3><strong>Creative Thinker</strong></h3>',
         present: false
       },
       {
         id:4,
-        title: 'Reader',
+        title: '<h3><strong>Reader</strong></h3>',
         present: false
       },
       {
         id:5,
-        title: 'Traveler',
+        title: '<h3><strong>Traveler</strong></h3>',
         present: false
       }
     ]

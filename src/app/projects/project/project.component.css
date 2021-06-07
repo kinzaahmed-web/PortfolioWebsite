@@ -1,12 +1,6 @@
 * {
     background-color: #F2F4F8;
   }
-  
-video {
-    height: 100%;
-    width: 100%;
-    padding-bottom: 56.25%; /* 16:9 */
-  }
 
 .container {
     margin: 0 50;

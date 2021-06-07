@@ -17,8 +17,8 @@
             <h1 *ngIf="true" id="wording" class="name-h1">KINZA AHMED</h1>
             <div class="mini-intro-text">
                 <div *ngFor="let word of words">
-                    <h4 @fadeElement *ngIf="word.present">
-                        {{ word.title }}
+                    <h4 @fadeElement *ngIf="word.present" [innerHTML]="word.title">
+                        <!-- {{ word.title }} -->
                     </h4>
                 </div>
             </div>

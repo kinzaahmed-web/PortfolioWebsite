@@ -26,5 +26,4 @@ export class ProjectComponent implements OnInit {
     return this.sanitizer.bypassSecurityTrustResourceUrl(this.project[0].video.videoUrl);
   }
   
-
 }

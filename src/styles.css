@@ -38,10 +38,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 220px;
     background-color: #FAF9FB;
     padding: 0 20px;
-    position: relative;
-    right: -86.3%;
+    position: absolute;
+    right: 0px;
+    margin-right: -8px;
     border-radius: 40px 0 0 40px;
-    top: -30em;
+    top: 50%;
   }
   
   .social-icons {
@@ -63,50 +64,12 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(1.05); 
   }
 
-  @media screen and (max-width: 2200px) {
-    #social-box {
-      right: -87.3%;
-    }
-  }
-
-  @media screen and (max-width: 1550px) {
-    #social-box {
-      right: -83%;
-    }
-  }
-
-  @media screen and (max-width: 1250px) {
-    #social-box {
-      right: -80%;
-    }
-  }
-
-  @media screen and (max-width: 1024px) {
-    #social-box {
-      right: -79.5%;
-    }
-  }
-
-  @media screen and (max-width: 800px) {
-    #social-box {
-      width:100px;
-      right: -93%;
-    }
-  }
-
-  @media screen and (max-width: 900px) {
-    #social-box {
-      width:100px;
-      right: -90%;
-      margin-top: -25%;
-    }
-  }
 
   @media screen and (max-width: 600px) {
     #social-box {
-      width:100px;
+      width:55px;
       padding: 0;
-      margin-top: -25%;
-      right: -85%
+      padding-right: 15px;
+      top: 40%;
     }
   }
